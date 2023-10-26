@@ -2,12 +2,11 @@ import React from "react"
 //yarn add react-fetch-hook
 
 import { Routes, Route, Link } from "react-router-dom"
-import Home from "./pages/home"
-import Page1 from "./pages/Page1"
-import Page2 from "./pages/page2"
+import Home from './pages/Home'
+import Page1 from './pages/Page1'
+import Page2 from './pages/Page2'
 
 function App() {
-    
   return (
     <>
       <header style={{ display: "flex", gridGap: 20 }}>
